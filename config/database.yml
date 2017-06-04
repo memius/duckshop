@@ -5,6 +5,7 @@
 #   gem 'sqlite3'
 #
 default: &default
+  encoding: utf-8
   adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
@@ -23,3 +24,7 @@ test:
 production:
   <<: *default
   database: duckshop_prod
+  url: <%= ENV['DATABASE_URL'] %>
+#  username:
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  
