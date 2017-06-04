@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Rails duckshop: development" uuid="b5e6b9e0-e180-4bfd-a649-597392c97d4d">
-      <driver-ref>sqlite.xerial</driver-ref>
+    <data-source source="LOCAL" name="Rails duckshop: test" uuid="dcebe86e-8cc2-4b64-b2c7-ed4da148689c">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:db/development.sqlite3</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:duckshop_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails duckshop: production" uuid="d7a0c7f0-e5fd-4ecf-af37-39b888cc0360">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:duckshop_prod</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails duckshop: development" uuid="51596c09-fd21-40d1-a41d-d010188b7e57">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:duckshop_dev</jdbc-url>
     </data-source>
   </component>
 </project>

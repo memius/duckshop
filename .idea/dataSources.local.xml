@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="Rails duckshop: development" uuid="b5e6b9e0-e180-4bfd-a649-597392c97d4d">
+    <data-source name="Rails duckshop: test" uuid="dcebe86e-8cc2-4b64-b2c7-ed4da148689c">
+      <database-info product="PostgreSQL" version="9.3.16" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4.1212">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>duckshop_test:public</introspection-schemas>
+    </data-source>
+    <data-source name="Rails duckshop: production" uuid="d7a0c7f0-e5fd-4ecf-af37-39b888cc0360">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-      <auth-required>false</auth-required>
-      <first-sync>true</first-sync>
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+    </data-source>
+    <data-source name="Rails duckshop: development" uuid="51596c09-fd21-40d1-a41d-d010188b7e57">
+      <database-info product="PostgreSQL" version="9.3.16" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4.1212">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>postgres</user-name>
+      <introspection-schemas>duckshop_dev:public</introspection-schemas>
     </data-source>
   </component>
 </project>
