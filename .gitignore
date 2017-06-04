@@ -25,3 +25,5 @@ config/secrets.yml.key
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
+
+.env

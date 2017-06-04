@@ -27,4 +27,3 @@ production:
   url: <%= ENV['DATABASE_URL'] %>
 #  username:
   password: <%= ENV['DATABASE_PASSWORD'] %>
-  
