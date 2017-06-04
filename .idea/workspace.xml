@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e0cbb61-e515-4347-a6bb-4559dfb2ba91" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/authorize_api_request.rb" afterPath="$PROJECT_DIR$/app/commands/authorize_api_request.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-    </list>
+    <list default="true" id="2e0cbb61-e515-4347-a6bb-4559dfb2ba91" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -83,11 +77,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authorize_api_request.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="authorize_api_request.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/commands/authorize_api_request.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
               <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,16 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="451">
               <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -618,12 +612,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496525770968</updated>
-      <workItem from="1496525772942" duration="6959000" />
+      <workItem from="1496525772942" duration="7426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6959000" />
+    <option name="totallyTimeSpent" value="7426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -660,14 +654,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -760,6 +746,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
