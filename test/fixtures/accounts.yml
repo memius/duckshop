@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  account_id: MyString
+  currency: MyString
+  balance: MyString
+  available: MyString
+  hold: MyString
+  profile_id: MyString
+
+two:
+  account_id: MyString
+  currency: MyString
+  balance: MyString
+  available: MyString
+  hold: MyString
+  profile_id: MyString
