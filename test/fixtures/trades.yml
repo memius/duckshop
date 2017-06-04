@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trade_type: MyString
+  trade_id: 1
+  maker_order_id: MyString
+  taker_order_id: MyString
+  side: MyString
+  size: MyString
+  price: MyString
+  product_id: MyString
+  sequence: 1
+  time: 2017-06-03 23:58:52
+
+two:
+  trade_type: MyString
+  trade_id: 1
+  maker_order_id: MyString
+  taker_order_id: MyString
+  side: MyString
+  size: MyString
+  price: MyString
+  product_id: MyString
+  sequence: 1
+  time: 2017-06-03 23:58:52
