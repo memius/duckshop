@@ -8,7 +8,8 @@ end
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
 gem 'simple_command'
-gem 'coinbase-exchange', path: '/home/tmh/RubymineProjects/coinbase-exchange-ruby/'
+# gem 'coinbase-exchange', path: '/home/tmh/RubymineProjects/coinbase-exchange-ruby/'
+gem 'coinbase-exchange', path: '../coinbase-exchange-ruby/'
 gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
